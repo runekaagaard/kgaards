@@ -1,0 +1,22 @@
+/* Body. */
+body { width: 960px; margin: 10px auto 0px auto; font-size: 12px;}
+h1 { font-size: 18px; font-weight: bold; margin-bottom: 6px; }
+p { margin-bottom: 6px; }
+dl { font-size: 11px; }
+dl dt { float: left; clear: left;}
+dl dd { float: left; margin-left: 4px; }
+
+/* Index. */
+#content { margin: 8px; }
+#contentIndented { margin: 20px 0px 0px 200px; }
+#menu { float: right; margin: 4px 0px 16px 0px; font-size: 14px; }
+#menu li.menuItem { float: left; margin-left: 8px; }
+#menu li.menuItem a { color: black; text-decoration: none;}
+#menu li.active a, #menu li.menuItem a:hover { color: #9F4543; }
+
+/* Products. */
+#products div.product div.column { float: left; margin-bottom: 16px; }
+#products div.product div.column img { border: solid 1px #D9DBDA;}
+#products div.product #columnLeft { width: 320px; }
+#products div.product #columnMiddle { width: 424px; }
+#products div.product #columnRight { width: 200px; }
