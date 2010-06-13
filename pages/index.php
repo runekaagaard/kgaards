@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <img src="/images/logo.png" title="Velkommen til Kgaards" alt="Velkommen til Kgaards"/>
+    <img src="/images/kgaards_logo.png" title="Velkommen til Kgaards" alt="Velkommen til Kgaards"/>
     <div id="menuContainer" class="clearfix">
         <?=$menu?>
     </div>
