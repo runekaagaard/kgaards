@@ -3,9 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
-    <title>Kgaards</title>
-    <meta name="keywords" content="sundhed,sygdom,forebyggelse" />
-    <meta name="description" content="Information om sundhed og sygdomme til borger, patienter og sundhedsfaglige." />
+    <title>Kgaards | <?=FrontController::_()->page['title']?></title>
     <link type="text/css" rel="stylesheet" media="all" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css" />
     <link type="text/css" rel="stylesheet" media="all" href="/css/rules.css" />
     <link type="text/css" rel="stylesheet" media="all" href="/css/main.css" />
