@@ -77,11 +77,13 @@ $products = array(
 
             <div id="columnMiddle" class="column">
                 <?=$product['description']?>
-                <a href="/produkter/<?=$product['productSheet']?>" title="Læs mere" target="_blank">Læs Mere</a>
+                <a href="/produkter/<?=$product['productSheet']?>" title="Læs mere om <?=$product['title']?>">Læs Mere</a>
             </div>
 
             <div id="columnRight" class="column">
-                <img src="/images/<?=$product['image']?>" title="<?=$product['title']?>" alt="<?=$product['title']?>"/>
+                <a href="/produkter/<?=$product['productSheet']?>">
+                    <img src="/images/<?=$product['image']?>" title="<?=$product['title']?>" alt="<?=$product['title']?>"/>
+                </a>
             </div>
         </div>
         <?if($i!=$count):?>
