@@ -7,10 +7,15 @@ class FrontController {
         'firmaet' => array('title' => 'Firmaet', 'inMenu' => TRUE, 'url' => 'firmaet', 'file' => 'firmaet.php'),
         'kontakt' => array('title' => 'Kontakt', 'inMenu' => TRUE, 'url' => 'kontakt', 'file' => 'kontakt.php'),
         '404' => array('title' => 'Kontakt', 'inMenu' => FALSE, 'url' => '404', 'file' => '404.php'),
+        'produkter/boxy-pendel' => array('title' => 'Body pendel', 'inMenu' => FALSE, 'url' => FALSE, 'file' => 'produkt.php', 'image' => 'produktblad_boxy_pendel.jpg'),
+        'produkter/boxy-color-sticks' => array('title' => 'Boxy color sticks', 'inMenu' => FALSE, 'url' => FALSE, 'file' => 'produkt.php', 'image' => 'produktblad_boxy_color_sticks.jpg'),
+        'produkter/lampeophaeng' => array('title' => 'Point lampeophæng', 'inMenu' => FALSE, 'url' => FALSE, 'file' => 'produkt.php', 'image' => 'produktblad_lampeophaeng.jpg'),
     );
     public $page = array();
     public static function _() {
-        return new FrontController();
+        static $fc = NULL;
+        if (empty($fc)) $fc = new FrontController();
+        return $fc;
     }
     function parseRequest() {
         $this->parseUri();

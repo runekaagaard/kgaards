@@ -1,14 +1,17 @@
 /* Body. */
-body { width: 960px; margin: 10px auto 0px auto; font-size: 12px;}
+body { width: 960px; margin: 10px auto 0px auto; font-size: 12px; font-family: "Helvetica LT", Helvetica, Arial, sans-serif }
 h1 { font-size: 18px; font-weight: bold; margin-bottom: 6px; }
+h2 { font-size: 15px; font-weight: bold; margin-bottom: 4px; }
 p { margin-bottom: 6px; }
 dl { font-size: 11px; }
 dl dt { float: left; clear: left;}
 dl dd { float: left; margin-left: 4px; }
+hr { color: #CCCCCC; background-color: #CCCCCC; margin-bottom: 20px;}
 
 /* Index. */
 #content { margin: 8px; }
 #contentIndented { margin: 20px 0px 0px 200px; }
+#contentIndented img { margin-left: 4px; }
 #menu { float: right; margin: 4px 0px 16px 0px; font-size: 14px; }
 #menu li.menuItem { float: left; margin-left: 8px; }
 #menu li.menuItem a { color: black; text-decoration: none;}
@@ -18,5 +21,10 @@ dl dd { float: left; margin-left: 4px; }
 #products div.product div.column { float: left; margin-bottom: 16px; }
 #products div.product div.column img { border: solid 1px #D9DBDA;}
 #products div.product #columnLeft { width: 320px; }
-#products div.product #columnMiddle { width: 424px; }
+#products div.product #columnMiddle { width: 418px; margin-right: 6px; }
 #products div.product #columnRight { width: 200px; }
+
+/* Product */
+#product #header h1, #product #header p { float: left; margin-bottom: 12px; }
+#product #header p { padding-top: 5px; }
+#product #productSheet { text-align: center; }
