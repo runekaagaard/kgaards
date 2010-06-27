@@ -61,21 +61,6 @@ $products = array(
         'image' => 'lampeophaeng.png',
     ),
 );
-
-/*
-
-Boxy Color Sticks:
-Boxy Color Sticks er farvede akrylfiltre
-der kan farve lyset på sidefladerne af
-Boxy Pendel lampen.
-Boxy  Color Sticks fåes i farverne:
-Rød, Violet, Gul og Blå
-
-Type: Farve filtre til Boxy pendel
-Materiale: Akryl
-
-
- */
 ?>
 <div id="products">
     <?$i=0;$count=count($products)?>
