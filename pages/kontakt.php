@@ -5,8 +5,7 @@
         Thorbjørn Kaagaard<br />
         Nældevej 6<br />
         9000 Aalborg<br />
-        CVR: 12345678<br />
-        Email: info@kgaards.dk<br />
-        Tlf: 26285356<br />
+        Email: <a href="mailto:info@kgaards.com">info@kgaards.com</a><br />
+        Tlf: 26 28 53 56<br />
     </p>
 </div>
